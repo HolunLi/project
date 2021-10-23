@@ -1,0 +1,11 @@
+public class Test {
+    public static void main(String[] args) {
+        //创建一个ArrayList集合
+        List<Student> myList = new ArrayList<>();
+        //往集合中添加元素
+        myList.add(new Student(17171, "holun"));
+        myList.add(new Student(17174, "kaka"));
+        myList.add(new Student(17172, "jimi"));
+        myList.add(new Student(17173, "maka"));
+    }
+}
